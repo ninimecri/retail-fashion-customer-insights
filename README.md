@@ -7,27 +7,27 @@ This project analyzes customer behavior and purchase patterns in the fashion ret
 ---
 🧾 **Project Files**
 
-- `Proyecto inicial Retail Fashion.ipynb`  
-  ➤ Main Jupyter Notebook with data loading, cleaning, visualization, and exploratory analysis.
+- `Retail Fashion JN.ipynb`  
+  ➤ Main Jupyter Notebook for data exploration and insight generation.
 
 - `Proyecto inicial Retail Fashion.py`  
-  ➤ Script version of the notebook for use in VS Code.
+  ➤ Python script version for standalone execution and VS Code compatibility.
 
-- `data/raw/fashion_retail_sales.csv`  
-  ➤ Raw dataset downloaded from Kaggle.
+- `Fashion_Retail_Sales.csv`  
+  ➤ Original dataset downloaded from Kaggle (raw input).
 
 - `data/processed/fashion_retail_clean.csv`  
-  ➤ Cleaned dataset after preprocessing (null handling, renaming, etc.).
+  ➤ Cleaned and preprocessed dataset for analysis.
 
 - `requirements.txt`  
-  ➤ List of Python dependencies needed to run this project.
+  ➤ Python dependencies needed to run the project (can be installed with `pip install -r requirements.txt`).
 
-- `.gitignore`  
-  ➤ Ensures that unnecessary files (e.g., `venv/`, Jupyter checkpoints) are excluded from the repo.
+- `Retail Fashion python code.code-workspace`  
+  ➤ VS Code workspace configuration file for organizing and reopening the project quickly.
 
 - `README.md`  
-  ➤ This file. Project overview and guide.
-
+  ➤ Project overview, structure, objectives, and usage guide.
+---
 ## 🧠 Objectives
 - Analyze purchase behaviors and spending trends
 - Explore satisfaction levels using review ratings

@@ -2,7 +2,7 @@
 Retail Fashion Insights
 Made by Nicole Mejía Criollo
 
-# 📊 Customer Insights – Final Project
+# 📊 Customer Insights – Personal Project
 This project analyzes customer behavior and purchase patterns in the fashion retail industry. Using a publicly available Kaggle dataset, the aim is to identify spending habits, satisfaction trends, and purchasing behaviors that could support business decision-making.
 ---
 🧾 **Project Files**

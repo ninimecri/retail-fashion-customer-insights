@@ -4,15 +4,30 @@ Made by Nicole Mejía Criollo
 
 # 📊 Customer Insights – Final Project
 This project analyzes customer behavior and purchase patterns in the fashion retail industry. Using a publicly available Kaggle dataset, the aim is to identify spending habits, satisfaction trends, and purchasing behaviors that could support business decision-making.
-
-##🧾 Project Files
-File	Description
-Proyecto inicial Retail Fashion.ipynb	Main Jupyter Notebook with data loading, cleaning, visualization, and insight extraction
-Proyecto inicial Retail Fashion.py	Script version of the notebook for use in VS Code
-data/raw/fashion_retail_sales.csv	Raw dataset from Kaggle
-data/processed/fashion_retail_clean.csv	Cleaned dataset after preprocessing
-requirements.txt (optional)	Python package dependencies for the environment
 ---
+🧾 **Project Files**
+
+- `Proyecto inicial Retail Fashion.ipynb`  
+  ➤ Main Jupyter Notebook with data loading, cleaning, visualization, and exploratory analysis.
+
+- `Proyecto inicial Retail Fashion.py`  
+  ➤ Script version of the notebook for use in VS Code.
+
+- `data/raw/fashion_retail_sales.csv`  
+  ➤ Raw dataset downloaded from Kaggle.
+
+- `data/processed/fashion_retail_clean.csv`  
+  ➤ Cleaned dataset after preprocessing (null handling, renaming, etc.).
+
+- `requirements.txt`  
+  ➤ List of Python dependencies needed to run this project.
+
+- `.gitignore`  
+  ➤ Ensures that unnecessary files (e.g., `venv/`, Jupyter checkpoints) are excluded from the repo.
+
+- `README.md`  
+  ➤ This file. Project overview and guide.
+
 ## 🧠 Objectives
 - Analyze purchase behaviors and spending trends
 - Explore satisfaction levels using review ratings

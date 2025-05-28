@@ -1,0 +1,49 @@
+# Retail Fashion - Customer Insights
+
+This project analyzes customer behavior and spending patterns in the retail fashion industry. Using a dataset from Kaggle, we clean the data, perform exploratory analysis, and extract insights that could inform strategic decision-making.
+
+---
+
+## 📌 Objective
+
+Understand how customers purchase fashion items, how much they spend, and how satisfied they are—leading to actionable insights for the business.
+
+---
+
+## 📊 Dataset
+
+- **Source:** Kaggle  
+- **Dataset:** [Fashion Retail Sales Dataset](https://www.kaggle.com/datasets/atharvasoundankar/fashion-retail-sales)
+- **Rows:** 3,400
+- **Columns:**
+  - `Customer Reference ID`: Unique identifier for each customer
+  - `Item Purchased`: Name of the purchased fashion item
+  - `Purchase Amount (USD)`: Purchase price in USD (650 missing values)
+  - `Date Purchase`: Date of purchase (format: DD-MM-YYYY)
+  - `Review Rating`: Customer rating (scale 1 to 5, 324 missing values)
+  - `Payment Method`: Payment method used (e.g., Credit Card, Cash)
+
+---
+
+## 🧪 Methodology
+
+1. **Environment Setup & Git Integration**
+2. **Data Preprocessing**
+   - Standardize column names
+   - Fill missing values with the mean
+   - Remove duplicates
+3. **Exploratory Data Analysis (EDA)**
+   - Summary statistics of spending and ratings
+   - Purchase trends over time
+   - Payment methods distribution
+4. *(Upcoming)*: Hypothesis formulation and business recommendations
+
+---
+
+✅ Project Status
+🔹 Virtual environment created
+🔹 Data cleaning complete
+🔹 CSV with cleaned data saved
+🔸 EDA in progress
+🔸 Hypothesis not defined yet
+

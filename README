@@ -1,42 +1,44 @@
 # Retail Fashion - Customer Insights
+Retail Fashion Insights
+Made by Nicole Mejía Criollo
 
-This project analyzes customer behavior and spending patterns in the retail fashion industry. Using a dataset from Kaggle, we clean the data, perform exploratory analysis, and extract insights that could inform strategic decision-making.
+📊 Customer Insights – Final Project
+This project analyzes customer behavior and purchase patterns in the fashion retail industry. Using a publicly available Kaggle dataset, the aim is to identify spending habits, satisfaction trends, and purchasing behaviors that could support business decision-making.
 
----
+🧾 Project Files
+File	Description
+Proyecto inicial Retail Fashion.ipynb	Main Jupyter Notebook with data loading, cleaning, visualization, and insight extraction
+Proyecto inicial Retail Fashion.py	Script version of the notebook for use in VS Code
+data/raw/fashion_retail_sales.csv	Raw dataset from Kaggle
+data/processed/fashion_retail_clean.csv	Cleaned dataset after preprocessing
+requirements.txt (optional)	Python package dependencies for the environment
 
-## 📌 Objective
+🧠 Objectives
+Analyze purchase behaviors and spending trends
 
-Understand how customers purchase fashion items, how much they spend, and how satisfied they are—leading to actionable insights for the business.
+Explore satisfaction levels using review ratings
 
----
+Identify potential business insights and recommendations from customer habits
 
-## 📊 Dataset
+🛠️ Technologies Used
+Python 3.11
 
-- **Source:** Kaggle  
-- **Dataset:** [Fashion Retail Sales Dataset](https://www.kaggle.com/datasets/atharvasoundankar/fashion-retail-sales)
-- **Rows:** 3,400
-- **Columns:**
-  - `Customer Reference ID`: Unique identifier for each customer
-  - `Item Purchased`: Name of the purchased fashion item
-  - `Purchase Amount (USD)`: Purchase price in USD (650 missing values)
-  - `Date Purchase`: Date of purchase (format: DD-MM-YYYY)
-  - `Review Rating`: Customer rating (scale 1 to 5, 324 missing values)
-  - `Payment Method`: Payment method used (e.g., Credit Card, Cash)
+Jupyter Notebook
 
----
+Visual Studio Code (VS Code)
 
-## 🧪 Methodology
+Git & GitHub
 
-1. **Environment Setup & Git Integration**
-2. **Data Preprocessing**
-   - Standardize column names
-   - Fill missing values with the mean
-   - Remove duplicates
-3. **Exploratory Data Analysis (EDA)**
-   - Summary statistics of spending and ratings
-   - Purchase trends over time
-   - Payment methods distribution
-4. *(Upcoming)*: Hypothesis formulation and business recommendations
+Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
+
+📌 Key Columns in Dataset
+Column	Description
+Customer Reference ID	Unique identifier for each customer
+Item Purchased	Name of the fashion item
+Purchase Amount (USD)	Total amount spent on purchase
+Date Purchase	Date of transaction (format: DD-MM-YYYY)
+Review Rating	Satisfaction score (1–5 scale)
+Payment Method	Method of payment used (e.g., Credit Card, Cash)
 
 ---
 
